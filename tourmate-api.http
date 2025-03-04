@@ -1,0 +1,16 @@
+### Get all tours
+GET http://localhost:8080/api/tours
+Accept: application/json
+
+### Create a new tour
+POST http://localhost:8080/api/tours
+Content-Type: application/json
+
+{
+  "name": "Beach Paradise Tour",
+  "price": 199.99
+}
+
+### Get all tours again to verify
+GET http://localhost:8080/api/tours
+Accept: application/json

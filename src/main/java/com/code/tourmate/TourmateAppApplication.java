@@ -1,4 +1,4 @@
-package com.code.tourmate.tourmate_app;
+package com.code.tourmate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
